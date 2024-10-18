@@ -69,6 +69,11 @@
             display: block;
             width: 100%;
         }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -77,31 +82,37 @@
     </header>
     <div class="container">
         <div class="product">
+            <img src="pepper1.jpg" alt="Продукт 1">
             <h2>Назва продукту 1</h2>
             <p>Опис продукту 1...</p>
             <button class="cart-button">Додати в кошик</button>
         </div>
         <div class="product">
+            <img src="pepper2.jpg" alt="Продукт 2">
             <h2>Назва продукту 2</h2>
             <p>Опис продукту 2...</p>
             <button class="cart-button">Додати в кошик</button>
         </div>
         <div class="product">
+            <img src="pepper3.jpg" alt="Продукт 3">
             <h2>Назва продукту 3</h2>
             <p>Опис продукту 3...</p>
             <button class="cart-button">Додати в кошик</button>
         </div>
         <div class="product">
+            <img src="pepper4.jpg" alt="Продукт 4">
             <h2>Назва продукту 4</h2>
             <p>Опис продукту 4...</p>
             <button class="cart-button">Додати в кошик</button>
         </div>
         <div class="product">
+            <img src="pepper5.jpg" alt="Продукт 5">
             <h2>Назва продукту 5</h2>
             <p>Опис продукту 5...</p>
             <button class="cart-button">Додати в кошик</button>
         </div>
         <div class="product">
+            <img src="pepper6.jpg" alt="Продукт 6">
             <h2>Назва продукту 6</h2>
             <p>Опис продукту 6...</p>
             <button class="cart-button">Додати в кошик</button>
